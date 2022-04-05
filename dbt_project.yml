@@ -44,7 +44,7 @@ models:
     enabled: true
   facebook_ads_creative_history:
     enabled: true
-  
+    
   google_ads:
     enabled: true
   google_ads_source:
@@ -56,6 +56,6 @@ models:
     enabled: false
 
   tiktok_ads:
-    enabled: true
+    enabled: false
   tiktok_ads_source:
-    enabled: true
+    enabled: false
