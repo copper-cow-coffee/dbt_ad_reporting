@@ -6,7 +6,7 @@ require-dbt-version: [">=1.0.0", "<2.0.0"]
 
 vars:
   ad_reporting__pinterest_enabled: true
-  ad_reporting__microsoft_ads_enabled: false
+  ad_reporting__microsoft_ads_enabled: true
   ad_reporting__linkedin_ads_enabled: false
   ad_reporting__google_ads_enabled: true
   ad_reporting__twitter_ads_enabled: false
@@ -24,9 +24,9 @@ models:
     enabled: true
   
   microsoft_ads:
-    enabled: false
+    enabled: true
   microsoft_ads_source:
-    enabled: false
+    enabled: true
   
   linkedin:
     enabled: false
